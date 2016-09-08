@@ -1,0 +1,772 @@
+/* ----------------------------------------------------------------------
+	Media Queries
+/* ---------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------
+	For Small Desktop Devices [ 970px ]
+/* ---------------------------------------------------------------------- */
+@media only screen and (min-width: 970px) and (max-width: 1200px) {
+
+	/* Layout and content
+	 ---------------------------------------------------------------------- */
+
+	/* Container */
+	.container { width: 970px; }
+			
+		/* Columns
+		 -------------------------------- */
+		.col-1-2 { width: 460px; }
+		.col-1-3 { width: 290px; }
+		.col-1-4 { width: 205px; }
+		.col-1-5 { width: 154px; }
+		.col-2-3 { width: 630px; }
+		.col-3-4 { width: 715px; }
+
+
+	/* Shortcodes and small elements
+ 	 ---------------------------------------------------------------------- */
+
+
+	/* Masonry Wall
+ 	 --------------------------------*/
+	.brick.width-1-4 { width: 242px; }
+	.brick.height-1-4 { height: 242px; }
+	.brick.width-1-2 { width: 484px; }
+	.brick.height-1-2 { height: 484px; }
+	.brick.width-3-4 { width: 726px; }
+	.brick.height-3-4 { height: 726px; }
+
+	/* Flipper width and height */
+	.brick.width-1-4 .front, .brick.width-1-4 .back { width: 242px; }
+	.brick.height-1-4 .front, .brick.height-1-4 .back, .brick.height-1-4 .flipper { height: 242px; }
+	.brick.width-1-2 .front, .brick.width-1-2 .back { width: 484px; }
+	.brick.height-1-2 .front, .brick.height-1-2 .back, .brick.height-1-2 .flipper { height: 484px; }
+	.brick.width-3-4 .front, .brick.width-3-4 .back { width: 726px; }
+	.brick.height-3-4 .front, .brick.height-3-4 .back, .brick.height-3-4 .flipper { height: 726px; }
+
+
+	/* Stats List
+ 	 --------------------------------*/
+ 	ul.stats li .stat-value { font-size: 130px }
+
+
+	/* Sections
+ 	 ---------------------------------------------------------------------- */
+
+	/* Section header heading */
+	.section-heading { font-size: 62px; }
+	.section-sub-heading { font-size: 28px; }
+
+
+	/* Portfolio
+ 	 ---------------------------------------------------------------------- */
+	.fullwidth.items { margin: 40px 40px 40px 0; }
+	.fullwidth .item { width: 33.3%; }
+	.container .item { width: 33.3%; }
+	.fullwidth .item .project-thumb { margin: 0px 0px 40px 40px; }
+
+
+	/* Events - Tour - Gigs
+ 	 ---------------------------------------------------------------------- */
+	#events-list li { height: 200px; }
+	#events-list li:hover { 
+		height: 250px;
+		margin-top: -30px;
+	}	
+		/* Date */
+		#events-list .event-date {  }
+		#events-list .event-date:before {  }
+		
+		/* Title */
+		#events-list h2, #events-list h2 a { font-size: 48px; }
+		#events-list .event-location { font-size: 16px; }
+
+
+	/* Events Masonry
+	 -------------------------------- */
+	.masonry-events { }
+		.masonry-events .event-brick {
+			width: 25%;
+		}
+
+		/* Title */
+		.event-brick .event-title { font-size: 28px; }
+}
+
+
+/* ----------------------------------------------------------------------
+	For Tablet Devices [ 730px ]
+/* ---------------------------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 969px) {
+
+
+	/* Layout and content
+	 ---------------------------------------------------------------------- */
+
+	/* Container */
+	.container { width: 730px; }
+		.container img { 
+			max-width: 100%;
+			max-height:100%;
+		}
+			
+		/* Columns
+		 -------------------------------- */
+		.col-1-2 { width: 340px; }
+		.col-1-3 { width: 210px; }
+		.col-1-4 { width: 145px; }
+		.col-1-5 { width: 106px; }
+		.col-2-3 { width: 470px; }
+		.col-3-4 { width: 535px; }
+
+
+	/* Shortcodes and small elements
+	 ---------------------------------------------------------------------- */
+
+
+	/* Column Icon
+ 	 ------------------------------------ */
+	.column-icon {
+		position: relative;
+	}
+	.column-icon .txt {
+		padding-left: 0px;
+		display: block;
+	}
+	.column-icon .icon { 
+		position: relative;
+	}
+	
+
+	/* Tabs
+	 ------------------------------------ */
+	ul.tabs { 
+		width:100%;
+		height: auto;
+		border: none;
+		overflow: hidden;
+	}
+		ul.tabs li { 
+			width: 100%;
+		}
+		ul.tabs li a { 
+			margin: 0;
+			width: 100%;
+			border-width: 0px 1px 1px 1px;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box; 
+		}
+		ul.tabs li:first-child a { border-width: 1px 1px 1px 1px;}
+
+
+	/* Masonry Wall
+ 	 --------------------------------*/
+	.brick.width-1-4 { width: 182px; }
+	.brick.height-1-4 { height: 182px; }
+	.brick.width-1-2 { width: 364px; }
+	.brick.height-1-2 { height: 364px; }
+	.brick.width-3-4 { width: 546px; }
+	.brick.height-3-4 { height: 546px; }
+
+	/* Info brick */
+	.brick-icon {
+		top: 20px;
+		left: 20px;
+		font-size: 32px;
+	}
+
+	.brick-title {
+		padding: 20px;
+		font-size: 16px;
+	}
+
+	/* Flipper width and height */
+	.brick.width-1-4 .front, .brick.width-1-4 .back { width: 182px; }
+	.brick.height-1-4 .front, .brick.height-1-4 .back, .brick.height-1-4 .flipper { height: 182px; }
+	.brick.width-1-2 .front, .brick.width-1-2 .back { width: 364px; }
+	.brick.height-1-2 .front, .brick.height-1-2 .back, .brick.height-1-2 .flipper { height: 364px; }
+	.brick.width-3-4 .front, .brick.width-3-4 .back { width: 546px; }
+	.brick.height-3-4 .front, .brick.height-3-4 .back, .brick.height-3-4 .flipper { height: 546px; }
+
+
+	/* Stats List
+ 	 --------------------------------*/
+ 	ul.stats li { padding-bottom: 60px; }
+ 	ul.stats li .stat-value { font-size: 90px }
+
+
+	/* Ajax pages
+	 ---------------------------------------------------------------------- */
+	.page-title {
+		font-size: 48px;
+	}
+	.page-intro-image {
+		height: 400px;
+	}
+
+
+	/* Sections
+	 ---------------------------------------------------------------------- */
+	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
+
+	/* Section header heading */
+	.section-heading { font-size: 62px; }
+	.section-sub-heading { font-size: 28px; }
+
+
+	/* Intro
+ 	 ---------------------------------------------------------------------- */
+
+	
+	/* Ticker
+ 	 --------------------------------*/
+ 	#ticker {
+		height: 56px;
+		font-size: 56px;
+	}
+	#ticker li {height: 56px;}
+
+
+	/* Portfolio
+ 	 ---------------------------------------------------------------------- */
+	.fullwidth.items { margin: 40px 40px 40px 0; }
+	.fullwidth .item { width: 33.3%; }
+	.container .item { width: 33.3%; }
+	.fullwidth .item .project-thumb { margin: 0px 0px 40px 40px; }
+
+	/* Filter */
+	.filter ul { 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+		.filter ul li {
+			float: none;
+			display: inline-block;
+		}
+		.filter li a {
+			padding: 12px;
+			border-bottom: none;
+		}
+		.filter li a:hover, .filter li a.active {
+			background-color: #111;
+			color: #fff;
+		}
+
+		/* Label */
+		.filter .filter-label { width: 100%; }
+		.filter .filter-label .label { padding: 12px; }
+
+		/* Arrow */
+		.filter .filter-label .label:after { content: "\2193"; }
+
+
+	/* Events - Tour - Gigs
+ 	 ---------------------------------------------------------------------- */
+	#events-list li { height: 200px; }
+	#events-list li:hover { 
+		height: 250px;
+		margin-top: -30px;
+	}	
+		/* Date */
+		#events-list .event-date {  }
+		#events-list .event-date:before {  }
+		
+		/* Title */
+		#events-list h2, #events-list h2 a { font-size: 48px; }
+		#events-list .event-location { font-size: 16px; }
+
+
+	/* Events Masonry
+	 -------------------------------- */
+	.masonry-events { }
+		.masonry-events .event-brick {
+			width: 33.3%;
+		}
+
+		/* Title */
+		.event-brick .event-title { font-size: 26px; }
+
+}
+
+
+/* ----------------------------------------------------------------------
+	For Mobile Devices [ 300px ]
+/* ---------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+	/* Layout and content
+	 ---------------------------------------------------------------------- */
+
+	/* Container */
+	.container { width: 300px; }
+		.container img { 
+			max-width: 100%;
+			max-height:100%;
+		}
+		
+			
+		/* Columns
+		 -------------------------------- */
+		.col-1-2,
+		.col-1-3,
+		.col-1-4,
+		.col-1-5,
+		.col-2-3,
+		.col-3-4,
+		.flex-col-1-2, 
+		.flex-col-1-3,
+		.flex-col-1-4 { 
+			width: 100%;
+			margin-right:0;
+		}
+
+
+	/* Typography
+	 ---------------------------------------------------------------------- */
+
+	/* Headings
+	 -------------------------------- */
+
+	/* Extra Large heading */
+	.heading-xl { 
+		font-size: 40px; 
+		line-height: 1.4em;
+	} 
+
+	/* Large heading */
+	.heading-l { 
+		font-size: 30px; 
+		line-height: 1.4em;
+	}
+
+	/* Medium heading */
+	.heading-m { 
+		font-size: 24px; 
+		line-height: 1.4em;
+	}
+
+
+	/* Navigation
+	 ---------------------------------------------------------------------- */
+
+ 	/* Main Navigation
+	 -------------------------------- */
+
+	/* Navigation list */
+ 	#nav { 
+ 		display: none;
+	}
+
+	/* Navigation container */
+ 	.nav-container {
+ 		padding: 0 20px;
+ 	}
+
+	/* Responsive Nav */
+	.dl-menuwrapper {
+		float: right;
+		display: block;
+		position: absolute;
+		right: 20px;
+		top:0;
+	}
+
+
+	/* Icon navigation
+	 -------------------------------- */
+	#icon-nav { 
+		position: absolute;
+		right: 80px;
+		top: 0;
+		border: 0;
+		z-index: 100;
+		margin-top: 26px;
+	}
+	#icon-nav a span { font-size: 18px; }
+
+
+ 	/* Logo
+	 -------------------------------- */
+	#logo { 
+		float: left;
+		margin: 8px 0 0 0;
+	}
+		#logo img { margin: 0; }
+
+
+	/* Shortcodes
+ 	 ---------------------------------------------------------------------- */
+ 	 
+	/* DD Nav */
+	.fancy-dd.alignright { float: left; }
+
+
+	/* Tabs
+	 ------------------------------------ */
+	ul.tabs { 
+		width:100%;
+		height: auto;
+		border: none;
+		overflow: hidden;
+	}
+		ul.tabs li { 
+			width: 100%;
+		}
+		ul.tabs li a { 
+			margin: 0;
+			width: 100%;
+			border-width: 0px 1px 1px 1px;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box; 
+		}
+		ul.tabs li:first-child a { border-width: 1px 1px 1px 1px;}
+
+
+	/* Masonry Wall
+ 	 --------------------------------*/
+	.brick.width-1-4 { width: 150px; }
+	.brick.height-1-4 { height: 150px; }
+	.brick.width-1-2 { width: 300px; }
+	.brick.height-1-2 { height:300px; } 
+	.brick.width-3-4 { width: 300px; }
+	.brick.height-3-4 { height:300px; }
+
+		/* Info brick */
+		.brick-icon {
+			top: 10px;
+			left: 10px;
+			font-size: 32px;
+		}
+
+		.brick-title {
+			padding: 10px;
+			font-size: 14px;
+		}
+
+		/* video fix */
+		.brick-video { height: 200px !important; }
+
+		/* Flipper width and height */
+		.brick.width-1-4 .front, .brick.width-1-4 .back { width: 150px; }
+		.brick.height-1-4 .front, .brick.height-1-4 .back, .brick.height-1-4 .flipper { height: 150px; }
+		.brick.width-1-2 .front, .brick.width-1-2 .back { width: 300px; }
+		.brick.height-1-2 .front, .brick.height-1-2 .back, .brick.height-1-2 .flipper { height: 300px; }
+		.brick.width-3-4 .front, .brick.width-3-4 .back { width: 300px; }
+		.brick.height-3-4 .front, .brick.height-3-4 .back, .brick.height-3-4 .flipper { height: 300px; }
+
+
+	/* Stats List
+ 	 --------------------------------*/
+ 	ul.stats li { padding-bottom: 50px; }
+ 	ul.stats li .stat-value { font-size: 130px }
+
+
+	/* Ajax pages
+	 ---------------------------------------------------------------------- */
+	.page-intro-image { height: 300px; }
+
+
+	/* Sections
+	 ---------------------------------------------------------------------- */
+	.section-header { padding: 60px 0; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
+
+	/* Section header heading */
+	.section-heading { font-size: 48px; }
+	.section-sub-heading { font-size: 24px; }
+
+	/* Content */
+	.content-title { font-size: 36px; }
+
+
+	/* Intro
+ 	 ---------------------------------------------------------------------- */
+
+	
+	/* Ticker
+ 	 --------------------------------*/
+ 	.intro-bg { display: none; }
+ 	#ticker-wrap { padding: 10px 0 20px; }
+ 	#ticker {
+		height: 28px;
+		font-size: 28px;
+	}
+	#ticker li {height: 28px;}
+
+
+	/* Masonry News
+ 	 ---------------------------------------------------------------------- */
+	.masonry-news {
+		background-image: none;
+	}
+
+
+	/* Upcoming Event
+ 	 ---------------------------------------------------------------------- */
+	h6.upcoming-event { font-size: 18px; }
+
+
+	/* Newsletter
+ 	 ---------------------------------------------------------------------- */
+	#newsletter { padding: 60px 0 }
+		#subscribe-email { width: 204px; }
+
+
+	/* Portfolio
+ 	 ---------------------------------------------------------------------- */
+	.fullwidth.items { margin: 40px 40px 40px 0; }
+	.fullwidth .item { width: 100%; }
+	.container .item { width: 100%; }
+	.fullwidth .item .project-thumb { margin: 0px 0px 40px 40px; }
+
+	/* Filter */
+	.filter ul { 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+		.filter ul li {
+			float: none;
+			display: inline-block;
+		}
+		.filter li a {
+			padding: 12px;
+			border-bottom: none;
+		}
+		.filter li a:hover, .filter li a.active {
+			background-color: #111;
+			color: #fff;
+		}
+
+		/* Label */
+		.filter .filter-label { width: 100%; }
+		.filter .filter-label .label { padding: 12px; }
+
+		/* Arrow */
+		.filter .filter-label .label:after { content: "\2193"; }
+
+
+	/* Events - Tour - Gigs
+ 	 ---------------------------------------------------------------------- */
+	#events-list li { 
+		height: auto;
+		padding: 0;
+		background-image: none !important;
+	}
+	#events-list li:hover { 
+		height: auto;
+		margin-top: 0px;
+	}
+		/* Inner section */
+		#events-list .inner {
+			padding: 40px 20px;
+		}
+			/* Date */
+			#events-list .event-date { font-size: 18px; }
+			
+			/* Title */
+			#events-list h2, #events-list h2 a { font-size: 24px; }
+
+			/* Location */
+			#events-list .event-location { 
+				color: #999;
+				font-size: 14px;
+			}
+
+
+	/* More events heading
+	 -------------------------------- */
+	.more-events {
+		background-color: #1c1c1d;
+		padding: 40px 20px;
+	}
+
+
+	/* Events Masonry
+	 -------------------------------- */
+	.masonry-events { }
+		.masonry-events .event-brick {
+			width: 100%;
+			min-height: 0;
+			margin-right: 0;
+			padding: 40px 20px;
+		}
+
+		/* Date */
+		.masonry-events .event-date {
+			font-size: 18px;
+		}
+
+		/* Location */
+		.masonry-events .event-location { font-size: 14px; }
+
+
+	/* Contact
+ 	 ---------------------------------------------------------------------- */
+ 	#contact-map { height: 400px; }
+
+
+ 	/* Error 404
+ 	 ---------------------------------------------------------------------- */
+	.error-title {
+		font-size: 80px;
+	}
+	.error-title:after {
+		content: "";
+		height: 45px;
+		bottom: -5px;
+	}
+
+
+}
+
+
+/* ----------------------------------------------------------------------
+	For Mobile Devices [ 440px ] [ Horizontal ]
+/* ---------------------------------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+	/* Layout and content
+	 ---------------------------------------------------------------------- */
+
+	/* Container */
+	.container { width: 440px; }
+
+
+		/* Columns
+		 -------------------------------- */
+		.flex-col-1-2,
+		.flex-col-1-4 { 
+			width: 50%;
+		}
+
+
+	/* Shortcodes
+ 	 ---------------------------------------------------------------------- */
+
+
+	/* Masonry Wall
+ 	 --------------------------------*/
+	.brick.width-1-4 { width: 220px; }
+	.brick.height-1-4 { height: 220px; }
+	.brick.width-1-2 { width: 440px; }
+	.brick.height-1-2 { height: 440px; } 
+	.brick.width-3-4 { width: 440px; }
+	.brick.height-3-4 { height: 440px; }
+
+		/* Info brick */
+		.brick-icon {
+			top: 20px;
+			left: 20px;
+			font-size: 64px;
+		}
+
+		.brick-title {
+			padding: 20px;
+			font-size: 18px;
+		}
+
+		/* video fix */
+		.brick-video { height: 293px !important; }
+
+		/* Flipper width and height */
+		.brick.width-1-4 .front, .brick.width-1-4 .back { width: 220px; }
+		.brick.height-1-4 .front, .brick.height-1-4 .back, .brick.height-1-4 .flipper { height: 220px; }
+		.brick.width-1-2 .front, .brick.width-1-2 .back { width: 440px; }
+		.brick.height-1-2 .front, .brick.height-1-2 .back, .brick.height-1-2 .flipper { height: 440px; }
+		.brick.width-3-4 .front, .brick.width-3-4 .back { width: 440px; }
+		.brick.height-3-4 .front, .brick.height-3-4 .back, .brick.height-3-4 .flipper { height: 440px; }
+
+
+	/* Sections
+	 ---------------------------------------------------------------------- */
+
+	/* Intro
+ 	 ---------------------------------------------------------------------- */
+
+
+ 	/* Intro logo
+	 -------------------------------- */
+	#intro-logo { margin: 0 auto 20px auto; }
+
+
+	/* Scroll arrow
+	 -------------------------------- */
+ 	a#scroll-arrows { margin: 30px auto 0; }
+
+	/* Ticker
+ 	 --------------------------------*/
+ 	#ticker-wrap { padding: 10px 0 20px; }
+ 	#ticker {
+		height: 48px;
+		font-size: 36px;
+	}
+	#ticker li {height: 48px;}
+
+
+	/* Portfolio
+ 	 ---------------------------------------------------------------------- */
+	.fullwidth.items { margin: 40px 40px 40px 0; }
+	.fullwidth .item { width: 50%; }
+	.container .item { width: 50%; }
+	.fullwidth .item .project-thumb { margin: 0px 0px 40px 40px; }
+}
+
+
+/* ----------------------------------------------------------------------
+	For Events Table Only
+/* ---------------------------------------------------------------------- */
+@media (max-width: 50em) {
+	table.responsive-table {
+		box-shadow: none;  
+	}
+	table.responsive-table thead {
+		display: none; 
+	}
+	table.display th,
+	table.display td {
+		padding: .8em 1em;
+		border: 1px solid #444;
+	}
+	table.responsive-table td:nth-child(1):before {
+		/*content: 'Date';*/
+	}
+	table.responsive-table td:nth-child(2):before {
+		/*content: 'Event';*/
+	}
+	table.responsive-table td:nth-child(1),
+	table.responsive-table td:nth-child(2) {
+		/*padding-left: 25%;*/
+	}
+	table.responsive-table td:nth-child(1):before,
+	table.responsive-table td:nth-child(2):before {
+		position: absolute;
+		left: .5em;
+		font-weight: bold;
+	}
+
+	table.responsive-table tr,
+	table.responsive-table td {
+		display: block;
+	}
+	table.responsive-table tr {
+		position: relative;
+		margin-bottom: 1em;
+	}
+	table.responsive-table td {
+		border-top: none;
+	}
+	table.responsive-table td.table-date {
+		border-top: 1px solid #444;
+	}
+	table.responsive-table td.actions{
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: none;
+		background: none;
+	}
+}
