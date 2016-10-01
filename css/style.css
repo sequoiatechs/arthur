@@ -1096,6 +1096,25 @@ h4.active-toggle:before {
 	cursor: pointer;
 }
 
+.borde-btn {
+	display: inline-block;
+	margin-top: 100px;
+	border: 1px solid #FFFFFF;
+	padding: 18px 78px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.borde-btn a {
+	cursor: pointer;
+}
+
+.borde-btn:hover {
+	background-color: #313233;
+	cursor: pointer;
+}
+
 
 /* Masonry Wall
  --------------------------------*/
@@ -1491,6 +1510,7 @@ ul.stats {
 		.content-title {
 			font-size: 65px;
 			letter-spacing: -0.05em;
+			text-align: left;
 		}
 		.content-title a { color: #eee; }
 		.content-title a:hover { color: #ff7700; }
@@ -1584,7 +1604,7 @@ ul.stats {
 			height: 110px;
 			overflow: hidden;
 			text-align: center;
-			font-size: 98px;
+			font-size: 75px;
 			font-weight: bold;
 			text-transform: uppercase;
 			margin-bottom: 0;
