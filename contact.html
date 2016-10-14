@@ -72,14 +72,49 @@
 <!-- ############################# contacto ############################# -->
 <section id="contact" class="section">
 	<div class="section-container container clearfix">
-		<header class="content-header">
-			<h1 class="content-title">Let's get in Touch</h1>
-			<span class="sub-heading">Feel free to contact me anytime!</span>
-			<hr class="content-line">
-		</header>
+
 
 		<div class="row clearfix">
-			<p>Cras venenatis justo mi, non posuere enim aliquet malesuada. Nullam orci sem, adipiscing id rutrum et, blandit quis lorem. Phasellus lacus orci, cursus vitae mi eget, sagittis congue elit.</p>
+			<h2 class="heading-m text-center">Send me a message</h2>
+			<span class="sub-heading text-center">Please fill in your contact details</span>
+		</div>
+
+		<!-- formulario de contacto -->
+		<form action="plugins/contact-form.php" method="post" class="form contact-form">
+			<div class="row clearfix">
+				<div class="col-1-3">
+					<label for="contact-name"><strong>Name</strong>*</label>
+					<input type="text" name="name" value="" id="contact-name" required>
+				</div>
+				<div class="col-1-3">
+					<label for="contact-email"><strong>Email</strong>*</label>
+					<input type="email" name="email" value="" id="contact-email" required>
+				</div>
+				<div class="col-1-3 last">
+					<label for="contact-subject"><strong>Subject</strong></label>
+					<input type="text" name="subject" value="" id="contact-subject">
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-1-1">
+					<label for="contact-message"><strong>Your Message</strong>*</label>
+					<textarea name="message" id="contact-message" cols="88" rows="6" required></textarea>
+				</div>
+			</div>
+			<div class="hidden">
+				<label for="contact-spam-check">Do not fill out this field this is spam check.</label>
+				<input name="anty_spam" type="text" value="" id="contact-spam-check" />
+			</div>
+			<input type="submit" value="Submit Message" class="large">
+			<div class="clear"></div>
+		</form>
+
+
+
+
+
+		<br>
+		<div class="row clearfix">
 			<br>
 			<div class="col-1-4 column-icon" style="margin-left: 170px">
 				<span class="icon-phone icon"></span>
@@ -95,52 +130,13 @@
 			</div>
 		</div>
 
-    <hr class="divider">
-    <div class="row clearfix">
-    	<h2 class="heading-m text-center">Send me a message</h2>
-    	<span class="sub-heading text-center">Please fill in your contact details</span>
-    </div>
 
-    <!-- formulario de contacto -->
-    <form action="plugins/contact-form.php" method="post" class="form contact-form">
-    	<div class="row clearfix">
- 				<div class="col-1-3">
- 					<label for="contact-name"><strong>Name</strong> (required)</label>
-					<input type="text" name="name" value="" id="contact-name" required>
- 				</div>
- 				<div class="col-1-3">
- 					<label for="contact-email"><strong>Email</strong> (required)</label>
-					<input type="email" name="email" value="" id="contact-email" required>
- 				</div>
- 				<div class="col-1-3 last">
- 					<label for="contact-subject"><strong>Subject</strong></label>
-					<input type="text" name="subject" value="" id="contact-subject">
- 				</div>
-    	</div>
-    	<div class="row clearfix">
-    		<div class="col-1-1">
-    			<label for="contact-message"><strong>Your Message</strong> (required)</label>
-					<textarea name="message" id="contact-message" cols="88" rows="6" required></textarea>
-				</div>
-    	</div>
-    	<div class="hidden">
-				<label for="contact-spam-check">Do not fill out this field this is spam check.</label>
-				<input name="anty_spam" type="text" value="" id="contact-spam-check" />
-			</div>
-			<input type="submit" value="Submit Message" class="large">
-			<div class="clear"></div>
-    </form>
+
+
   </div>
 </section>
 
 
-<!-- ############################# redes sociales ############################# -->
-<section id="social">
-    <div class="flex-col-1-4"><a href="#" class="social-twitter"><span class="icon-twitter"></span>Twitter</a></div>
-    <div class="flex-col-1-4"><a href="#" class="social-facebook"><span class="icon-facebook"></span>Facebook</a></div>
-    <div class="flex-col-1-4"><a href="#" class="social-vimeo"><span class="icon-vimeo"></span>Vimeo</a></div>
-    <div class="flex-col-1-4"><a href="#" class="social-youtube"><span class="icon-youtube"></span>Youtube</a></div>
-</section>
 
 <!-- ############################# footer ############################# -->
 <footer id="footer">

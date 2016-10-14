@@ -288,7 +288,7 @@ img.alignright { margin-bottom: 30px; margin-left: 20px; }
 
 	}
 	#main-nav.sticky {
-		position: fixed;
+		/*position: fixed;*/
 		top: 0;
 		left: 0;
 		visibility: visible;
@@ -2352,7 +2352,7 @@ ul.stats {
 /* Footer
  ---------------------------------------------------------------------- */
 #footer {
-	padding: 120px 0;
+	padding: 20px 0;
 	background: #1b1c1d;
 	width: 100%;
 }
